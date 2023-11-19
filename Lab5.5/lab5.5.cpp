@@ -21,9 +21,7 @@ int main() {
 
     cout << "n = "; cin >> n;
     cout << "m = "; cin >> m;
-
-    int gcd = NSD(n, m);
-    cout << "The GCD of " << n << " and " << m << " is: " << gcd << endl;
+    cout << "The GCD of " << n << " and " << m << " is: " << NSD(n, m) << endl;
 
     return 0;
 }
